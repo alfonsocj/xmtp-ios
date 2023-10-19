@@ -46,5 +46,4 @@ Pod::Spec.new do |spec|
   spec.dependency "Connect-Swift"
   spec.dependency 'XMTPRust', '= 0.3.0-beta0'
 
-  spec.xcconfig = {'VALID_ARCHS' =>  'arm64' }
 end
